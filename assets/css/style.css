@@ -9,7 +9,7 @@ body {
     color: #39a6b2;
 }
 
-/* apply styles to <header> */
+/* header / nav bar style start */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -30,6 +30,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
@@ -52,6 +53,7 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header nav ul li a:hover {
@@ -60,8 +62,9 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
 }
+/* header / nav style end */
 
-/* apply styles to <footer> */
+/* footer style start */
 footer {
     background: #fce138;
     width: 100%;
@@ -85,8 +88,9 @@ footer div {
 footer a {
     color: #024e76;
 }
-/* end footer styling */
+/* end footer style */
 
+/* style all section tags */
 section {
     padding: 60px;
 }
@@ -116,15 +120,17 @@ section {
     font-style: italic;
     font-size: 55px;
     color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form {
     color: #024e76;
-    background-color: #fce138;
+    background-color: rgba(255, 255, 56, 0.8);
     padding: 20px;
     border: solid 3px #024e76;
     width: 40%;
     margin: 3.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form h3 {
@@ -145,6 +151,7 @@ section {
     width: 100%;
     margin-bottom: 15px;
     background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
 }
 
 .form-input:focus {
@@ -162,12 +169,15 @@ section {
     padding: 10px 20px;
     font-size: 16px;
     border: none;
+    border-radius: 10px;
 }
 
 .hero-form button:hover {
     background-color: #39a6b2;
 }
+/* hero style end */
 
+/* section title style start */
 .section-title {
     font-size: 48px;
     color: #024e76;
@@ -185,7 +195,9 @@ section {
 .secondary-border {
     border-color: #39a6b2;
 }
+/* section title style end */
 
+/* what we do style start */
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
@@ -194,7 +206,9 @@ section {
     margin: 0 auto;
     text-align: center;
 }
+/* what we do style end */
 
+/* what you do style start */
 .steps {
     background: #fce138;
 }
@@ -203,19 +217,15 @@ section {
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
+    border-bottom: 1px solid #39a6b2;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #39a6b2;
 }
 
 .step:last-child {
     border-bottom: none;
-}
-
-.step:nth-child(even) {
-    border-bottom: 1px solid #39a6b2;
 }
 
 .step h3 {
@@ -254,7 +264,9 @@ section {
     line-height: 1.5;
     color: #024e76;
 }
+/* what you do style end */
 
+/* trainers style start */
 .trainers {
     width: 100%;
     margin: 0 auto;
@@ -292,8 +304,9 @@ section {
 .trainer-bio p {
     font-size: 17px;
 }
+/* trainers style end */
 
-/* reach out styles start */
+/* reach out style start */
 .contact {
     background: #024e76;
 }
@@ -358,6 +371,7 @@ section {
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+    border-radius: 10px;
 }
 
 .contact-form button:hover {
@@ -368,9 +382,9 @@ section {
 .contact-info a {
     color: #fce138;
 }
+/* reach out style end */
 
-/* reach out styles end */
-
+/* utilities */
 .text-left {
     text-align: left;
 }
